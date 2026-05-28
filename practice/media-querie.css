@@ -1,0 +1,148 @@
+@media (max-width: 992px) {
+  .conteiner {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar .link {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .search {
+    width: 90%;
+  }
+
+  /* Hero Section */
+  section div[style*="display: flex"] {
+    flex-direction: column;
+  }
+
+  section div[style*="width: 50%"] {
+    width: 100% ;
+    text-align: center;
+  }
+
+  section img {
+    max-width: 100%;
+    height: auto ;
+  }
+
+  h1 {
+    font-size: 35px ;
+  }
+
+  h1 span {
+    font-size: 45px ;
+  }
+
+  
+
+  /* Footer */
+  footer div[style*="justify-content: space-between"] {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .home-page {
+    width: 100%;
+  }
+
+  .conteiner {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .navbar .link {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .serach-btn {
+    width: 100%;
+  }
+
+  /* Hero Section */
+  h1 {
+    font-size: 28px;
+  }
+
+  h1 span {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /* Buttons */
+  .view-btn,
+  .explore-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  /* Cards */
+  div[style*="width: 320px"] {
+    width: 100% ;
+    margin: 10px 0 ;
+  }
+
+  div[style*="overflow-x: scroll"] {
+    overflow-x: auto;
+  }
+
+  /* Brand Logos */
+  div[style*="justify-content: space-evenly"] {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  /* Footer Subscribe */
+  footer div[style*="border-radius: 250px"] {
+    flex-direction: column;
+    border-radius: 20px ;
+    text-align: center;
+  }
+
+  footer input {
+    width: 100% ;
+    margin-bottom: 10px;
+  }
+
+  footer button {
+    width: 100%;
+  }
+
+  /* Footer Bottom */   
+  footer div[style*="height:150px"] {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
